@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from brownie import PriceFeedConsumer
+from brownie import PriceFeedConsumer, accounts
 from scripts.helpful_scripts import (
     get_verify_status,
     get_account,
